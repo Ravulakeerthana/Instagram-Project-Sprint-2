@@ -1,0 +1,29 @@
+body {
+
+    background-color: #fafafa;
+    background-image: url(https://th.bing.com/th/id/OIP.KPdBu8tTFRJ_A3_CguwaJgAAAA?rs=1&pid=ImgDetMain);
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.fb-btn {
+    background-color: #1877f2; /* Facebook blue color */
+    color: white;
+}
+.fb-icon {
+    color: white;
+}
+.login-link {
+    text-decoration: none;
+    color: #003569; /* Instagram blue color */
+}

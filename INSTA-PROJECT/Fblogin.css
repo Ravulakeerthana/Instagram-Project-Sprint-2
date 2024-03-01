@@ -1,0 +1,25 @@
+body {
+    background-color: #f0f2f5;
+background-image: url(https://th.bing.com/th/id/OIP.NyT91RhFKcZnzzMaHVaImAHaEK?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.eye-icon {
+    cursor: pointer;
+}
+.signup-link {
+    text-decoration: none;
+    color: #1877f2; /* Facebook blue color */
+}

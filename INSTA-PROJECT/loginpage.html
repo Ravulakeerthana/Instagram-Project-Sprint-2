@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="text-center">Instagram </h2>
+                </div>    
+                <div class="card-body">
+                    <form id="loginForm">
+                        <div class="form-group">
+                            
+                         <input type="text" class="form-control" id="username"  placeholder="username,email or phonenumber">
+                        </div>
+                        <div class="form-group">
+                            
+                            <input type="password" class="form-control" id="password" placeholder="password">
+                        </div>
+                        <button type="button" class="btn btn-primary btn-block" onclick="login()">Login</button>
+                    </form>
+                    <hr>
+                    <button type="button" class="btn btn-outline-primary btn-block" onclick="loginWithFacebook()">
+                        <i class="fab fa-facebook-f"></i>
+                        <a href="Fblogin.html">Login with Facebook</a>
+                    </button>
+                    <hr>
+                    <div class="text-center">
+                        <a href="Forgotpswd.html" onclick="forgotPassword()">Forgot Password?</a>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a href="Signup.html" onclick="showSignup()">Sign up for Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap and Font Awesome Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js"></script>
+
+<!-- Your custom JavaScript file -->
+<script src="loginpage.js"></script>
+
+</body>
+</html>
